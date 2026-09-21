@@ -1,95 +1,141 @@
 # Employee Performance & Workforce Intelligence — Power BI
 
-A portfolio-ready Power BI HR analytics project focused on workforce size, employee attrition, compensation, performance, overtime, tenure, and employee satisfaction.
+A portfolio-ready **Power BI HR analytics dashboard** focused on workforce size, employee attrition, compensation, performance, overtime, tenure, and employee satisfaction.
 
-## Dashboard
+## 📊 Dashboard
 
 The report contains four interactive pages:
 
-1. **01 Executive Overview** — executive KPIs, department workforce, attrition, performance, job-role attrition, and overtime analysis.
-2. **02 Attrition Intelligence** — attrition by department, job role, overtime, tenure, job satisfaction, and environment satisfaction.
-3. **03 Workforce Performance** — department workforce, compensation, performance rating, and employee-experience distributions.
-4. **04 Employee Explorer** — interactive slicers and employee-level detail.
+| Page | Focus |
+|---|---|
+| **01 Executive Overview** | Executive KPIs, department workforce, attrition, performance, job-role exits, and overtime analysis |
+| **02 Attrition Intelligence** | Attrition by department, job role, overtime, tenure, job satisfaction, and environment satisfaction |
+| **03 Workforce Performance** | Workforce distribution, compensation, performance rating, and employee-experience analysis |
+| **04 Employee Explorer** | Interactive slicers and employee-level detail |
 
-## Key Metrics
+## 🎯 Business Objective
+
+HR teams need a clear view of workforce composition and the employee factors associated with attrition.
+
+This dashboard turns employee-level data into an interactive reporting layer for exploring:
+
+- Workforce distribution
+- Attrition patterns
+- Overtime and attrition
+- Compensation
+- Performance
+- Tenure
+- Employee satisfaction
+- Department and job-role differences
+
+## 🔢 Key Metrics
 
 Based on the current 800-row dataset:
 
 | KPI | Value |
 |---|---:|
-| Total Employees | 800 |
-| Employees Left | 174 |
-| Attrition Rate | 21.75% |
-| Average Age | 40.39 |
-| Average Monthly Income | $7,129.80 |
-| Average Performance Rating | 2.57 |
+| Total Employees | **800** |
+| Employees Left | **174** |
+| Attrition Rate | **21.75%** |
+| Average Age | **40.39** |
+| Average Monthly Income | **$7,129.80** |
+| Average Performance Rating | **2.57** |
 
-## Dataset
+## 📌 Key Analysis Areas
 
-The dataset contains employee-level attributes including:
+### Workforce
+- Employees by department
+- Average monthly income by department
+- Average performance rating by department
 
-- Department and Job Role
-- Age and Gender
-- Education
-- Monthly Income
-- Years at Company
-- Job Satisfaction
-- Environment Satisfaction
-- Work-Life Balance
-- Job Involvement
-- Relationship Satisfaction
-- Overtime
-- Performance Rating
-- Attrition
+### Attrition
+- Attrition rate by department
+- Employees left by job role
+- Overtime vs. attrition rate
+- Attrition by years at company
+- Attrition by job satisfaction
+- Attrition by environment satisfaction
 
-## DAX Measures
+### Employee Experience
+- Job satisfaction
+- Environment satisfaction
+- Work-life balance
+- Job involvement
+- Relationship satisfaction
+
+### Employee Explorer
+Interactive filtering by:
+
+`Department` • `JobRole` • `Gender` • `Education` • `OverTime` • `BusinessTravel` • `MaritalStatus` • `Attrition`
+
+## 🧮 DAX Measures
 
 The report uses these core measures:
 
-- `Total Employees`
-- `Employees Left`
-- `Attrition Rate`
-- `Average Age`
-- `Average Monthly Income`
-- `Average Performance Rating`
+```DAX
+Total Employees
+Employees Left
+Attrition Rate
+Average Age
+Average Monthly Income
+Average Performance Rating
+```
 
-## Business Questions
+## 🛠️ Tools & Technologies
 
-The dashboard is designed to answer questions such as:
+- **Power BI Desktop**
+- **Power BI Project (PBIP/PBIR)**
+- **DAX**
+- **Power BI Modeling MCP**
+- **Power BI Report Authoring skill**
+- **GitHub**
 
-- How large is the workforce by department?
-- Which departments have higher attrition rates?
-- How does overtime relate to attrition?
-- Which job roles account for more employee exits?
-- How does attrition vary by tenure?
-- How are satisfaction and performance distributed across the workforce?
-- Which employee-level records match selected workforce filters?
+## 🎨 Dashboard Design
 
-## Tools
+The report uses a dark executive-dashboard visual system with:
 
-- Power BI Desktop
-- Power BI Project (PBIP/PBIR)
-- DAX
-- Power BI Modeling MCP
-- Power BI Report Authoring skill
-- GitHub
+- KPI cards
+- Large analytical chart panels
+- Consistent accent colors
+- Attrition-focused red/orange highlights
+- Interactive slicers
+- Employee-level exploration
+- Consistent page structure and typography
 
-## Project Structure
+## 📁 Project Structure
 
 ```text
 powerbi-employee-performance/
 ├── README.md
+├── .gitignore
 ├── data/
-├── powerbi/
+│   └── employee_performance.csv
 ├── images/
+│   ├── 01 Executive Overview.png
+│   ├── 02 Attrition Intelligence.png
+│   ├── 03 Workforce Performance.png
+│   └── 04 Employee Explorer.png
+├── powerbi/
+│   └── Employee Performance/
+│       ├── Employee Performance.pbip
+│       ├── Employee Performance.Report/
+│       └── Employee Performance.SemanticModel/
 └── documentation/
 ```
 
-## Portfolio Notes
+## ▶️ How to Use
 
-The report was authored as a Power BI Project and uses a dark executive-dashboard design with KPI cards, analytical chart panels, consistent accent colors, and an interactive employee explorer.
+1. Download or clone the repository.
+2. Open the `powerbi/Employee Performance/Employee Performance.pbip` project in Power BI Desktop.
+3. Review the Executive Overview.
+4. Explore Attrition Intelligence and Workforce Performance.
+5. Use the Employee Explorer slicers for employee-level analysis.
 
-## Author
+## 📝 Notes
+
+The dashboard is an analytical reporting project. Attrition relationships shown in the visuals are descriptive and should be investigated alongside business context before making HR decisions.
+
+## 👤 Author
 
 **Nikhil Vamsi** — Data Analyst
 
