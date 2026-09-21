@@ -1,0 +1,186 @@
+{
+  "name": "ExecutiveNavy-20260921.json",
+  "dataColors": [
+    "#4DA3FF",
+    "#F15B6C",
+    "#F3B44B",
+    "#8BC8FF",
+    "#6F86A6",
+    "#D9E8F5",
+    "#2D6EA3",
+    "#D9445A"
+  ],
+  "good": "#4DA3FF",
+  "neutral": "#F3B44B",
+  "bad": "#F15B6C",
+  "foreground": "#F2F7FC",
+  "background": "#071A2F",
+  "tableAccent": "#4DA3FF",
+  "firstLevelElements": "#F2F7FC",
+  "secondLevelElements": "#A9C2D9",
+  "thirdLevelElements": "#173451",
+  "fourthLevelElements": "#7897B5",
+  "secondaryBackground": "#0D2742",
+  "textClasses": {
+    "label": {
+      "fontFace": "Segoe UI",
+      "fontSize": 10,
+      "color": "#D9E8F5"
+    },
+    "title": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 12,
+      "color": "#F2F7FC"
+    },
+    "callout": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 32,
+      "color": "#F2F7FC"
+    },
+    "header": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 12,
+      "color": "#F2F7FC"
+    }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "color": {
+              "solid": {
+                "color": "#102B47"
+              }
+            },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#234E73"
+              }
+            },
+            "radius": 12,
+            "width": 1
+          }
+        ],
+        "title": [
+          {
+            "show": true,
+            "fontFamily": "Segoe UI Semibold",
+            "fontSize": 12,
+            "fontColor": {
+              "solid": {
+                "color": "#F2F7FC"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "cardVisual": {
+      "*": {
+        "value": [
+          {
+            "fontFamily": "Segoe UI Semibold",
+            "fontSize": 30,
+            "fontColor": {
+              "solid": {
+                "color": "#F2F7FC"
+              }
+            }
+          }
+        ],
+        "label": [
+          {
+            "fontFamily": "Segoe UI",
+            "fontSize": 10,
+            "fontColor": {
+              "solid": {
+                "color": "#A9C2D9"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "slicer": {
+      "*": {
+        "header": [
+          {
+            "fontFamily": "Segoe UI Semibold",
+            "textSize": 10,
+            "fontColor": {
+              "solid": {
+                "color": "#F2F7FC"
+              }
+            }
+          }
+        ],
+        "items": [
+          {
+            "fontFamily": "Segoe UI",
+            "textSize": 10,
+            "fontColor": {
+              "solid": {
+                "color": "#D9E8F5"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "tableEx": {
+      "*": {
+        "columnHeaders": [
+          {
+            "fontFamily": "Segoe UI Semibold",
+            "fontSize": 10,
+            "fontColor": {
+              "solid": {
+                "color": "#F2F7FC"
+              }
+            },
+            "backColor": {
+              "solid": {
+                "color": "#173451"
+              }
+            },
+            "autoSizeColumnWidth": true,
+            "columnAdjustment": "growToFit"
+          }
+        ],
+        "values": [
+          {
+            "fontFamily": "Segoe UI",
+            "fontSize": 9,
+            "fontColorPrimary": {
+              "solid": {
+                "color": "#D9E8F5"
+              }
+            },
+            "fontColorSecondary": {
+              "solid": {
+                "color": "#D9E8F5"
+              }
+            },
+            "backColorPrimary": {
+              "solid": {
+                "color": "#102B47"
+              }
+            },
+            "backColorSecondary": {
+              "solid": {
+                "color": "#0D2742"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}
