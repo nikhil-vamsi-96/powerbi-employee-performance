@@ -1,77 +1,80 @@
-# 👨‍💼 Employee Performance & Attrition Analytics — Power BI
+# Employee Performance & Workforce Intelligence — Power BI
 
-An interactive **Power BI HR analytics dashboard** designed to analyze employee performance, compensation, overtime, satisfaction, tenure, and attrition risk.
+A portfolio-ready Power BI HR analytics project focused on workforce size, employee attrition, compensation, performance, overtime, tenure, and employee satisfaction.
 
-## 🎯 Business Problem
+## Dashboard
 
-HR teams need to understand which employee factors are associated with attrition and where retention efforts should be prioritized.
+The report contains four interactive pages:
 
-This project uses **Power BI data modeling and DAX** to transform employee-level data into actionable HR KPIs and retention insights.
+1. **01 Executive Overview** — executive KPIs, department workforce, attrition, performance, job-role attrition, and overtime analysis.
+2. **02 Attrition Intelligence** — attrition by department, job role, overtime, tenure, job satisfaction, and environment satisfaction.
+3. **03 Workforce Performance** — department workforce, compensation, performance rating, and employee-experience distributions.
+4. **04 Employee Explorer** — interactive slicers and employee-level detail.
 
-## 🧰 Tools & Skills
+## Key Metrics
 
-- **Power BI** — interactive dashboard and business reporting
-- **DAX** — calculated measures and Flight Risk Score
-- **Data Modeling** — relationships, KPIs, and analytical segments
-- **HR Analytics** — attrition, performance, compensation, satisfaction, and tenure analysis
+Based on the current 800-row dataset:
 
-## 📊 Dataset
+| KPI | Value |
+|---|---:|
+| Total Employees | 800 |
+| Employees Left | 174 |
+| Attrition Rate | 21.75% |
+| Average Age | 40.39 |
+| Average Monthly Income | $7,129.80 |
+| Average Performance Rating | 2.57 |
 
-- **800 employees**
-- Performance and satisfaction indicators
-- Compensation information
-- Overtime status
-- Tenure
-- Attrition information
+## Dataset
 
-## 📌 Key KPIs & Analysis
+The dataset contains employee-level attributes including:
 
-The dashboard analyzes:
+- Department and Job Role
+- Age and Gender
+- Education
+- Monthly Income
+- Years at Company
+- Job Satisfaction
+- Environment Satisfaction
+- Work-Life Balance
+- Job Involvement
+- Relationship Satisfaction
+- Overtime
+- Performance Rating
+- Attrition
 
-- Employee attrition rate
-- Performance ratings
-- Salary and compensation
-- Overtime patterns
-- Employee satisfaction
-- Tenure distribution
-- Department-level performance
-- Flight Risk Score
+## DAX Measures
 
-## 🧮 DAX Flight Risk Score
+The report uses these core measures:
 
-A custom **Flight Risk Score** combines indicators such as satisfaction, overtime, and tenure to help identify employees who may require closer retention attention.
+- `Total Employees`
+- `Employees Left`
+- `Attrition Rate`
+- `Average Age`
+- `Average Monthly Income`
+- `Average Performance Rating`
 
-The score is intended as an **analytical prioritization tool**, not a definitive prediction of individual employee behavior.
+## Business Questions
 
-## 💡 Key Business Insight
+The dashboard is designed to answer questions such as:
 
-In the analyzed dataset, employees working overtime leave at approximately **1.5× the rate** of employees who do not work overtime.
+- How large is the workforce by department?
+- Which departments have higher attrition rates?
+- How does overtime relate to attrition?
+- Which job roles account for more employee exits?
+- How does attrition vary by tenure?
+- How are satisfaction and performance distributed across the workforce?
+- Which employee-level records match selected workforce filters?
 
-This suggests that overtime deserves further investigation alongside satisfaction, compensation, workload, and career progression when designing retention strategies.
+## Tools
 
-## 🚀 Business Recommendations
+- Power BI Desktop
+- Power BI Project (PBIP/PBIR)
+- DAX
+- Power BI Modeling MCP
+- Power BI Report Authoring skill
+- GitHub
 
-- Review workload and overtime patterns in high-attrition teams.
-- Investigate employees with high Flight Risk Scores.
-- Combine compensation and satisfaction analysis before designing retention programs.
-- Monitor attrition KPIs regularly by department and tenure group.
-- Use dashboard trends to identify areas that require deeper HR investigation.
-
-## 🖼️ Dashboard Preview
-
-Add your strongest Power BI dashboard screenshot here:
-
-```text
-images/dashboard-overview.png
-```
-
-Example Markdown:
-
-```markdown
-![Employee Performance & Attrition Dashboard](images/dashboard-overview.png)
-```
-
-## 📁 Project Structure
+## Project Structure
 
 ```text
 powerbi-employee-performance/
@@ -82,20 +85,13 @@ powerbi-employee-performance/
 └── documentation/
 ```
 
-## ▶️ How to Explore
+## Portfolio Notes
 
-1. Review the dataset and project documentation.
-2. Open the Power BI report from the `powerbi/` directory.
-3. Explore the KPI overview and interactive filters.
-4. Compare attrition across departments, tenure, overtime, satisfaction, and compensation.
-5. Review the Flight Risk analysis and business recommendations.
+The report was authored as a Power BI Project and uses a dark executive-dashboard design with KPI cards, analytical chart panels, consistent accent colors, and an interactive employee explorer.
 
-## 🎯 Skills Demonstrated
-
-**Power BI • DAX • Data Modeling • KPI Development • HR Analytics • Data Visualization • Business Intelligence**
-
-## 👤 Author
+## Author
 
 **Nikhil Vamsi** — Data Analyst
 
-[GitHub](https://github.com/nikhil-vamsi-96) • [Portfolio](https://github.com/nikhil-vamsi-96/Data-Portfolio) • [Email](mailto:nikhilvamsi96@gmail.com)
+- GitHub: https://github.com/nikhil-vamsi-96
+- Data Portfolio: https://github.com/nikhil-vamsi-96/Data-Portfolio
